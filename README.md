@@ -61,7 +61,6 @@ This repository contains the complete solution for analyzing three genetic disor
 |------|---------|---------|
 | Python | ≥3.8 | Data processing |
 | BCFtools | ≥1.9 | VCF manipulation and annotation |
-| VEP (optional) | ≥105 | Variant annotation |
 | Web browser | Latest | UCSC Genome Browser access |
 
 ### Installation Commands
