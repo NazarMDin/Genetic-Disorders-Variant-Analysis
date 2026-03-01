@@ -15,9 +15,7 @@ This repository contains the complete solution for analyzing three genetic disor
 |-----------|----------|
 | `data/` | Excel sheet with complete variant analysis, VCF files (raw and annotated) |
 | `screenshots/` | UCSC Genome Browser captures (AlphaMissense and RAVEL tracks) |
-| `docs/` | Detailed documentation of OMIM phenotypes, ACMG classifications, and variant studies |
-| `scripts/` | Analysis scripts for VCF annotation and data processing |
-| `references/` | Supporting reference materials (ACMG guidelines, ClinVar summaries) |
+| `script/` | Script for VCF annotation and data processing |
 
 ## Complete Methodology
 
