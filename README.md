@@ -1,6 +1,5 @@
-# Advanced Computational Biology: Genetic Disorders Variant Analysis
+# Genetic Disorders Variant Analysis
 
-## Assignment Overview
 This repository contains the complete solution for analyzing three genetic disorders/rare diseases using ClinVar, OMIM, UCSC Genome Browser, and ACMG/AMP guidelines.
 
 ## Selected Disorders
