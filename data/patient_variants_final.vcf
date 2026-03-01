@@ -1,0 +1,19 @@
+##fileformat=VCFv4.2
+##fileDate=20260301
+##source=WGS_analysis
+##reference=GRCh38
+##INFO=<ID=CLNSIG,Number=.,Type=String,Description="Clinical significance from ClinVar">
+##INFO=<ID=CLNREVSTAT,Number=.,Type=String,Description="ClinVar review status">
+##INFO=<ID=CLNDN,Number=.,Type=String,Description="ClinVar disease name">
+##INFO=<ID=GENEINFO,Number=1,Type=String,Description="Gene name">
+##INFO=<ID=ALPHAMISSENSE,Number=1,Type=Float,Description="AlphaMissense pathogenicity score">
+##INFO=<ID=RAVEL,Number=1,Type=String,Description="RAVEL classification">
+##INFO=<ID=ACMG,Number=1,Type=String,Description="ACMG/AMP classification">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype quality">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	PATIENT_01
+chr11	5225470	rs334	A	T	999	PASS	CLNSIG=Pathogenic;CLNREVSTAT=criteria_provided,_multiple_submitters,_no_conflicts;CLNDN=Sickle_cell_disease;GENEINFO=HBB;ALPHAMISSENSE=0.99;RAVEL=Pathogenic;ACMG=Pathogenic(PS1,PS3,PM2,PP4)	GT:DP:GQ:AD	1/1:120:99:0,118
+chrX	31478330	rs128627256	C	T	950	PASS	CLNSIG=Pathogenic;CLNREVSTAT=criteria_provided,_multiple_submitters,_no_conflicts;CLNDN=Duchenne_muscular_dystrophy;GENEINFO=DMD;ACMG=Pathogenic(PVS1,PM2,PM3,PP4,PP5)	GT:DP:GQ:AD	1/0:145:99:80,62
+chrX	101403843	rs148156068	T	C	980	PASS	CLNSIG=Pathogenic;CLNREVSTAT=criteria_provided,_multiple_submitters,_no_conflicts;CLNDN=Fabry_disease;GENEINFO=GLA;ALPHAMISSENSE=0.98;RAVEL=Pathogenic;ACMG=Pathogenic(PS1,PM1,PM2,PM5,PS3,PP3)	GT:DP:GQ:AD	1/0:132:99:71,58
